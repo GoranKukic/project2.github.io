@@ -67,7 +67,7 @@
           <div class="site-heading">
                <span class="subheading">Prijava za korisnike </span>
               <br>
-              <?php
+             <!-- <?php
               if(isset($_SESSION['ulogovan'])){
                 if($_SESSION['ulogovan']=="da"){
                   echo "Korisnik: ".$_SESSION['korisnik']."<br>";
@@ -79,7 +79,7 @@
                   $_SESSION['poruka']="";
                 }
                 
-              ?>
+              ?> -->
                   <form action="logovanje.php" method="post">
                     <input type="text" name="f_korisnik" placeholder="Korisničko ime"><br><br>
                     <input type="text" name="f_lozinka" placeholder="Lozika"><br><br>
@@ -88,10 +88,10 @@
                     
                   </form>
               
-              <?php
+             <!-- <?php
               }
               
-              ?>
+              ?> -->
         
           </div>
         </div>
